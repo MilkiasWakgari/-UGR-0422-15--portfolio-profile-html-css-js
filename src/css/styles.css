@@ -1,0 +1,483 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    background-color: #d9d9d9;
+}
+
+header a {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Background Image */
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 0px 32px 32px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* About Section Styles */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px;
+    padding: 0px 25px;
+    gap: 32px;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-image h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.about-image img {
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.about-content {
+    flex: 2;
+    min-width: 200px;
+    padding: 32px 32px;
+    margin-top: 48px;
+}
+
+.about-content article p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* Styling for the hobbies banner */
+.hobbies-banner {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hobbies-image {
+    width: 60%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
+}
+
+.hobbies-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+/* Content Wrapper Styling */
+.content-wrapper {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hobby Card Styling */
+.hobby-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hobby-card {
+    width: 30%;
+    background-color: #fff;
+}
+
+.image-container {
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-wrapper {
+    padding: 15px;
+}
+
+.text-wrapper h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.text-wrapper p {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Adventures Banner Section */
+.adventures-banner {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.adventures-image {
+    width: 60%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.adventures-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.adventure-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.adventure-card {
+    width: 30%;
+    background-color: #fff;
+}
+
+.adventure-text {
+    padding: 15px;
+}
+
+.adventure-text h3 {
+    font-size: 18px;
+}
+
+.adventure-text p {
+    font-size: 16px;
+    color: #000;
+}
+
+.adventure-image {
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventure-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CV Banner Section */
+.CV-banner {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.CV-image {
+    width: 60%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.CV-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Grid styles */
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    padding: 32px;
+}
+
+.cv-grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+}
+
+.cv-grid .description {
+    color: #000;
+    font-size: 19px;
+}
+
+.cv-grid .video-container {
+    background-color: #F3C8C8;
+}
+
+.cv-grid .video-container2 {
+    background-color: #B5E0F7;
+}
+
+.cv-grid .video-container3 {
+    background-color: #fddfc7;
+}
+
+video {
+    width: 100%;
+    max-width: 400px;
+    max-height: 230px;
+    object-fit: cover;
+}
+
+/* Styles for the contact form */
+.form-container {
+    padding: 2rem;
+}
+
+.form-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 600px;
+}
+
+.form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    margin: 0px 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 16px 32px;
+    font-size: 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #000;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #d8d8d8;
+    color: #000;
+    font-size: 16px;
+    padding: 0px 50px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 35px;
+    margin: 0px 32px;
+}
+
+footer .social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1024px) {
+    header nav ul {
+        gap: 15px;
+    }
+
+    .intro h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .intro h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero img {
+        width: fit-content;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .welcome {
+        padding: 20px;
+    }
+
+    .welcome h2 {
+        font-size: 32px;
+    }
+
+    footer .social-links {
+        flex-direction: row;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .intro h2 {
+        font-size: 20px;
+    }
+
+    footer .social-icons {
+        flex-direction: row;
+    }
+}

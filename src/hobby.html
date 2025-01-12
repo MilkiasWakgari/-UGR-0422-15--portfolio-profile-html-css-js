@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobby</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <header>
-        <a href="home.html" class="logo">Home</a>
+        <a href="../index.html" class="logo">Home</a>
         <nav>
             <ul>
                 <li><a href="about.html">About</a></li>
@@ -22,103 +23,142 @@
         </nav>
     </header>
 
-    <section>
-        <img src="images/hobbies.jpg" alt="Hobby Banner" width="500" height="100">
-        <div>
-            <h1>Hobbies</h1>
-        </div>
+    <section class="hobbies-banner">
+        <img src="images/hobbies.jpg" alt="Hobby Banner" class="hobbies-image">
+        <div class="overlay"></div>
+        <h2 class="hobbies-title">Hobbies</h2>
     </section>
 
-    <main>
 
-        <section>
-            <h2>Cooking</h2>
-            <img src="images/cooking3.webp" alt="Cooking Hobby" width="300" height="200">
-            <p>Explore traditional recipes from around the world and document your experience cooking them at home.</p>
-        </section>
 
-        <section>
-            <h2>Wildlife Photography</h2>
-            <img src="images/wildlife.jpeg" alt="Wildlife Photography" width="300" height="200">
-            <p>Capture breathtaking shots of wildlife in local or distant natural reserves and share the story
-                behind
-                each photo.</p>
-        </section>
+    <div class="content-wrapper">
+        <!-- Container -->
+        <div class="hobby-cards">
+            <!-- card group -->
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/cooking3.webp" alt="Cooking">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Cooking</h3>
+                    <p class="card-text">Explore traditional recipes from around the world and document your experience
+                        cooking them at home.</p>
+                </div>
+            </div>
 
-        <section>
-            <h2>Hiking</h2>
-            <img src="images/hiking.webp" alt="Hiking Hobby" width="300" height="200">
-            <p>Chronicle your hiking trips, sharing routes, scenic views, and tips for fellow hikers.</p>
-        </section>
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/wildlife.jpeg" alt="Wildlife">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Wildlife</h3>
+                    <p class="card-text">Capture breathtaking shots of wildlife in local or distant natural reserves and
+                        share the story behind each photo.</p>
+                </div>
+            </div>
 
-        <section>
-            <h2>Urban Exploration</h2>
-            <img src="images/urban.jpeg" alt="Urban Exploration" width="300" height="200">
-            <p>Visit and review hidden gems, quirky neighborhoods, or iconic spots in different cities.</p>
-        </section>
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/hiking.webp" alt="Hiking">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Hiking</h3>
+                    <p class="card-text">Chronicle your hiking trips, sharing routes, scenic views, and tips for fellow
+                        hikers.</p>
+                </div>
+            </div>
+        </div>
 
-        <section>
-            <h2>Crafting</h2>
-            <img src="images/crafting.webp" alt="Crafting Hobby" width="300" height="200">
-            <p>Create unique crafts, like pottery or woodworking, and share step-by-step guides with photos.</p>
-        </section>
+        <div class="hobby-cards">
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/urban.jpeg" alt="Urban Exploration">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Urban Exploration</h3>
+                    <p class="card-text">Visit and review hidden gems, quirky neighborhoods, or iconic spots in
+                        different cities.</p>
+                </div>
+            </div>
 
-        <section>
-            <h2>Gardening</h2>
-            <img src="images/gardening.webp" alt="Gardening Hobby" width="300" height="200">
-            <p>Document your journey in creating a sustainable garden, experimenting with exotic plants or
-                eco-friendly
-                techniques.</p>
-        </section>
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/crafting.webp" alt="Crafting">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Crafting</h3>
+                    <p class="card-text">Create unique crafts, like pottery or woodworking, and share step-by-step
+                        guides with photos.</p>
+                </div>
+            </div>
 
-        <section>
-            <h2>Historical Sites</h2>
-            <img src="images/florence.jpeg" alt="Historical Sites" width="300" height="200">
-            <p>Travel to historical landmarks and uncover fascinating stories or little-known facts about them.
-            </p>
-        </section>
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/gardening.webp" alt="Gardening">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Gardening</h3>
+                    <p class="card-text">Document your journey in creating a sustainable garden, experimenting with
+                        exotic plants or eco-friendly techniques.</p>
+                </div>
+            </div>
+        </div>
 
-        <section>
-            <h2>Bookstore Adventures</h2>
-            <img src="images/bookstore.jpeg" alt="Bookstore Adventures" width="300" height="200">
-            <p>Explore unique bookstores or libraries worldwide and highlight their charm or special
-                collections.</p>
-        </section>
+        <div class="hobby-cards">
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/florence.jpeg" alt="Historical Sites">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Historical Sites</h3>
+                    <p class="card-text">Travel to historical landmarks and uncover fascinating stories or little-known
+                        facts about them.</p>
+                </div>
+            </div>
 
-        <section>
-            <h2>Star Gazing</h2>
-            <img src="images/moon.jpeg" alt="Star Gazing" width="300" height="200">
-            <p>Explore the night sky, documenting constellations, meteor showers, and your astrophotography.</p>
-        </section>
-    </main>
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/bookstore.jpeg" alt="Bookstore">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Bookstore</h3>
+                    <p class="card-text">Explore unique bookstores or libraries worldwide and highlight their charm or
+                        special collections.</p>
+                </div>
+            </div>
 
+            <div class="hobby-card">
+                <div class="image-container">
+                    <img src="images/moon.jpeg" alt="Star Gazing">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Star Gazing</h3>
+                    <p class="card-text">Explore the night sky, documenting constellations, meteor showers, and your
+                        astrophotography.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2024 Milkias Wakgari. All rights reserved.</p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/@milkiaswakgari1099" target="_blank" aria-label="YouTube">
-                        <img src="images/Youtube.png" alt="YouTube" width="24" height="24">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com/milkias_wakgari" target="_blank" aria-label="X">
-                        <img src="images/X.png" alt="X" width="24" height="24">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/milkias_wakgari" target="_blank" aria-label="Instagram">
-                        <img src="images/Instagram.png" alt="Instagram" width="24" height="24">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://t.me/milkias_wakgari" target="_blank" aria-label="Telegram">
-                        <img src="images/Telegram.png" alt="Telegram" width="24" height="24">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <p>&copy; 2024 Milkias Wakgari. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@milkiaswakgari1099" target="_blank">
+                    <img src="images/Youtube.png" alt="Youtube">
+                </a>
+                <a href="https://x.com/milkias_wakgari" target="_blank">
+                    <img src="images/X.png" alt="X">
+                </a>
+                <a href="https://instagram.com/milkias_wakgari" target="_blank">
+                    <img src="images/Instagram.png" alt="Instagram">
+                </a>
+                <a href="https://t.me/milkias_wakgari" target="_blank">
+                    <img src="images/Telegram.png" alt="Telegram">
+                </a>
+            </div>
+        </div>
     </footer>
+
 
 </body>
 

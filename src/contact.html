@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <header>
-        <a href="home.html" class="logo">Home</a>
+        <a href="../index.html" class="logo">Home</a>
         <nav>
             <ul>
                 <li><a href="about.html">About</a></li>
@@ -22,64 +23,51 @@
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>I would like to hear from you !</h2>
-            <form action="#" method="post">
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name">
-                </div>
+    <div class="form-container">
+        <h1 class="form-title">I would like to hear from you!</h1>
+        <form onsubmit="handleSubmit(event)" class="form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
 
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email">
-                </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
 
-                <div>
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
-                </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
 
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
-                </div>
-
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
-        </section>
-    </main>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Milkias Wakgari. All rights reserved.</p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/@milkiaswakgari1099" target="_blank" aria-label="YouTube">
-                        <img src="images/Youtube.png" alt="YouTube" width="24" height="24">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com/milkias_wakgari" target="_blank" aria-label="X">
-                        <img src="images/X.png" alt="X" width="24" height="24">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/milkias_wakgari" target="_blank" aria-label="Instagram">
-                        <img src="images/Instagram.png" alt="Instagram" width="24" height="24">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://t.me/milkias_wakgari" target="_blank" aria-label="Telegram">
-                        <img src="images/Telegram.png" alt="Telegram" width="24" height="24">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <p>&copy; 2024 Milkias Wakgari. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@milkiaswakgari1099" target="_blank">
+                    <img src="images/Youtube.png" alt="Youtube">
+                </a>
+                <a href="https://x.com/milkias_wakgari" target="_blank">
+                    <img src="images/X.png" alt="X">
+                </a>
+                <a href="https://instagram.com/milkias_wakgari" target="_blank">
+                    <img src="images/Instagram.png" alt="Instagram">
+                </a>
+                <a href="https://t.me/milkias_wakgari" target="_blank">
+                    <img src="images/Telegram.png" alt="Telegram">
+                </a>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 
